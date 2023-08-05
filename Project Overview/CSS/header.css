@@ -1,0 +1,62 @@
+.top-bar {
+    background-color: #005BAA;
+    padding: 0 80px;
+    height: 95px;
+    position:fixed;
+    position:fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.top-bar .container .row img {
+    padding-top: 25px;
+}
+
+.top-bar .container .row {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.top-bar .container .row .user .see-more {
+    font-size: 14px;
+}
+
+.top-bar .container .row .user .see-more,
+.top-bar .container .row .user .otification{
+    padding-top: 30px;
+}
+
+.top-bar .container .row .user p {
+    font-size: 14px;
+    padding-top: 28px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 0 40px;
+    padding-top: 25px;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.user {
+    list-style: none;
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+}
+
+.user li a, p{
+    color: #fff;
+    text-decoration: none;
+}

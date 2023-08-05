@@ -1,0 +1,104 @@
+.footer .course-details {
+    margin-top: 44px;
+    margin-left: 360px;
+    display:flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.footer .course-details h2 {
+    color: #0C0C0C;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.footer .course-details .filter {
+    width: 110px;
+    height: 35px;
+    flex-shrink: 0;
+    text-decoration: none;
+    border: solid 2px #005BAA;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 6.5px;
+}
+
+.footer .course-details .filter .ti-filter {
+    color: #005BAA;
+    font-size: 13px;
+    padding-right: 4px;
+}
+
+.footer .course-details .filter span {
+    color: #0C0C0C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    padding-right: 25px;
+}
+
+.footer .course-details .filter .ti-angle-down {
+    font-size: 12px;
+}
+
+.footer .course-list {
+    margin-left: 360px;
+    margin-top: 27px;
+}
+
+.footer .course-list .item-main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: 24px;
+}
+
+.footer .course-list .item-main p {
+    color: var(--gray-3, #828282);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer .course-list .item-main .type {
+}
+
+.footer .course-list .list-item {
+    width: 929px;
+}
+
+.footer .course-list .list-item .item {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer .course-list .list-item .item .course-name {
+    font-weight: 700;
+}
+
+.footer .course-list .list-item .item p {
+    color: #000;
+    text-align: center;
+    padding-bottom: 67px;
+    padding-top: 15px;
+    color: var(--0-c-0-c-0-c, #0C0C0C);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .course-list .list-item .item {
+    height: 50px;
+    flex-shrink: 0;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.20);
+}

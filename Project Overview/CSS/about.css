@@ -1,0 +1,402 @@
+.user-inf {
+    position: relative; 
+    margin-top: 96px; 
+}
+
+.user-inf .text {
+    padding-top: 28.87px;
+    max-width: 300px;
+    height: 2657px;
+    text-align: center;
+    box-shadow: 0 0 10px 0px #ddd;
+    float:left;
+}
+
+.user-inf .user-name a {
+    display: block;
+    margin-top: 12px;
+    font-size: 28px;
+    color: #0C0C0C;
+    font-weight: 700;
+    line-height: 150%;
+    text-decoration: none;
+    margin-bottom: 14px;
+}
+
+.personal-inf .inf {
+    font-size: 14;
+}
+
+.personal-inf .inf li {
+    padding-bottom: 4px;
+}
+
+.personal-inf .inf p {
+    color: #000;
+    font-size: 14;
+}
+
+.user-inf .text .nav_list {
+    margin-top: 56px;
+    margin-left: 24px;
+}
+
+.user-inf .text .nav_list a {
+    display: inline-block;
+    height: 50px;
+    align-items: center;
+}
+
+.user-inf .text .nav_list .my-account,
+.user-inf .text .nav_list .overview {
+    padding-left: 20px;
+}
+
+.user-inf .text .nav_list .overview .ti-book {
+    padding-top: 16px;
+    color: #fff;
+}
+
+.user-inf .text .nav_list .overview span {
+    padding-top: 16px;
+    color: #fff;
+}
+
+.user-inf .text .nav_list .overview {
+    background-color: #005BAA;
+    border-radius: 50px;
+    padding-bottom: 20px;
+    width: 252px;
+    height: 50px;
+    margin-right: 24px;
+}
+
+.user-inf .text .nav_list a span,
+.user-inf .text .nav_list a {
+    color: var(--0-c-0-c-0-c, #0C0C0C);
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 8px;
+}
+
+.piaggio p {
+    margin-top: 2130px;
+    color: var(--0-c-0-c-0-c, #0C0C0C);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+
+.content {
+    margin-left: 360px;
+    padding-top: 18.87px;
+    margin-right: 60px;
+    max-width: 1275px;
+}
+
+.content h3 {
+    color: #0C0C0C;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.content .my-learning {
+    justify-content:space-between;
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.content .my-learning h2 {
+    color: #0C0C0C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.content .my-learning ul {
+    display: flex;
+    list-style: none;
+    margin-right: -21px;
+}
+
+.content .my-learning ul li i {
+    padding-right: 18px;
+    font-size: 12px;
+}
+
+.content .category {
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.content .category .item-1,
+.content .category .item-2,
+.content .category .item-3,
+.content .category .item-4 {
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 354px;
+    height: 195px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.content .category .item-1 .ti-book,
+.content .category .item-2 .ti-book,
+.content .category .item-3 .ti-book,
+.content .category .item-4 .ti-book {
+    padding-right: 2px;
+}
+
+.content .category .item-1 .training,
+.content .category .item-2 .training,
+.content .category .item-3 .training,
+.content .category .item-4 .training {
+    display: contents;
+    font-size: 15px;
+    color: #0C0C0C;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.content .category .item-1 .place-desc,
+.content .category .item-2 .place-desc,
+.content .category .item-3 .place-desc,
+.content .category .item-4 .place-desc {
+    color: #0C0C0C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+.content .category .item-1 .lesson,
+.content .category .item-2 .lesson,
+.content .category .item-3 .lesson,
+.content .category .item-4 .lesson {
+    color: #0C0C0C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    padding-top: 31px;
+    display: inline-block;
+}
+
+.content .category .item-1 .time,
+.content .category .item-2 .time,
+.content .category .item-3 .time,
+.content .category .item-4 .time {
+    color: #0C0C0C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    display: inline-block;
+}
+
+.content .category .item-1 .percent,
+.content .category .item-2 .percent,
+.content .category .item-3 .percent,
+.content .category .item-4 .percent {
+    color: #40B4E5;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 60px;
+    display: inline-block;
+}
+
+.content .category .item-1 {
+    background: #F8FFF2;
+}
+
+.content .category .item-2 {
+    background: #F3FDFF;
+}
+
+.content .category .item-3 {
+    background: #FFFDF1;
+}
+
+.content .category .item-4 {
+    background: #F3ECFF;
+}
+
+.content .category .item-1 .percent,
+.content .category .item-1 .ti-book {
+    color: #35987B;
+}
+
+.content .category .item-2 .percent,
+.content .category .item-2 .ti-book {
+    color: #40B4E5;
+}
+
+.content .category .item-3 .percent,
+.content .category .item-3 .ti-book {
+    color: #DAB300;
+}
+
+.content .category .item-4 .percent,
+.content .category .item-4 .ti-book {
+    color: #32006E;
+}
+
+.studied .places-list,
+.your-course .places-list,
+.recommend .places-list {
+    display:flex;
+}
+
+.studied .title h2,
+.your-course .title h2, 
+.recommend .title h2 {
+    margin-top: 40px;
+    color: #0C0C0C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.studied .places-list,
+.your-course .places-list,
+.recommend .places-list {
+    display: flex;
+    margin-left: -17.5px;
+}
+
+.studied .places-list .places-item,
+.your-course .places-list .places-item,
+.recommend .places-list .places-item {
+    margin-right: -11px;
+}
+
+.studied .places-list .places-item img,
+.your-course .places-list .places-item img,
+.recommend .places-list .places-item img {
+    width: 320px;
+    height: 242px;
+    flex-shrink: 0;
+    display: block;
+    padding: 0 17.5px;
+    margin-top: -18px;
+}
+
+.studied .places-list .places-item .place-body,
+.your-course .places-list .places-item .place-body,
+.recommend .places-list .places-item .place-body {
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    min-height: 420px;
+    width: 285px;
+    min-height: 174px;
+    margin-left: 17.5px;
+    margin-top: -50px;
+    padding-left: 18px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 12px 0px #D9D9D9;
+}
+
+.studied .places-list .places-item .place-body .ti-book,
+.your-course .places-list .places-item .place-body .ti-book,
+.recommend .places-list .places-item .place-body .ti-book {
+    display: inline-block;
+    padding-top: 18px;
+}
+
+.studied .places-list .places-item .place-body .title,
+.your-course .places-list .places-item .place-body .title,
+.recommend .places-list .places-item .place-body .title {
+    display:flex;
+    padding-bottom: 6px;
+}
+
+.studied .places-list .places-item .place-body .title h4,
+.your-course .places-list .places-item .place-body .title h4,
+.recommend .places-list .places-item .place-body .title h4 {
+    padding-top: 18px;
+    padding-left: 8px;
+}
+
+.studied .places-list .places-item .place-body .subtitle,
+.your-course .places-list .places-item .place-body .subtitle,
+.recommend .places-list .places-item .place-body .subtitle {
+    color: #0C0C0C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+
+.studied .places-list .places-item .place-body .course,
+.your-course .places-list .places-item .place-body .course,
+.recommend .places-list .places-item .place-body .course {
+    display: flex;
+}
+
+.studied .places-list .places-item .place-body .course .open,
+.your-course .places-list .places-item .place-body .course .open,
+.recommend .places-list .places-item .place-body .course .open {
+    display: inline-flex;
+    padding: 6px 12px;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 8px;
+    background-color: #FFEAB3;
+    border: 1px solid #FFEAB3;
+    margin-right: 12px;
+    color: #EC7100;;
+}
+
+.studied .places-list .places-item .place-body .course p,
+.your-course .places-list .places-item .place-body .course p,
+.recommend .places-list .places-item .place-body .course p {
+    color: #0C0C0C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    display:inline;
+    padding-top: 6px;
+    padding-right: 12px;
+}
+
+.studied .places-list .places-item .place-body .check,
+.your-course .places-list .places-item .place-body .check,
+.recommend .places-list .places-item .place-body .check {
+    margin-top: 18px;
+    display: inline-flex;
+    padding: 8px 18px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 8px;
+    background: #00ADD0;
+    border: 1px solid #00ADD0;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
